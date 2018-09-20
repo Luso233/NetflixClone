@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start":"node src/bin/www",
     "test": "jest",
-    "start": "nodemon nodemon -L src/bin/www"
+    "server": "nodemon nodemon -L src/bin/www"
   },
   "author": "",
   "license": "ISC",
