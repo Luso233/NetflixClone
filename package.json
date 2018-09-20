@@ -1,0 +1,23 @@
+{
+  "name": "netlix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon nodemon -L src/bin/www"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "dotenv": "^6.0.0",
+    "graphql-yoga": "^1.16.2",
+    "jest": "^23.6.0",
+    "jsonwebtoken": "^8.3.0",
+    "prisma-binding": "^2.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
