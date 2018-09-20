@@ -1,4 +1,4 @@
-endpoint: https://us1.prisma.sh/luis-felipe-quintero-cervera-905415/production/prod
+endpoint: GIT P
 datamodel: datamodel.graphql
 
 #Deploy Hook
