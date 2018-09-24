@@ -1,8 +1,2 @@
-endpoint:${src:PRISMA_ENDPOINT,https://us1.prisma.sh/luis-felipe-quintero-cervera-905415/instadb/dev}
+endpoint: https://us1.prisma.sh/luis-felipe-quintero-cervera-905415/database/dev
 datamodel: datamodel.graphql
-
-#Deploy Hook
-
-hooks:
-  post-deploy:
-    - graphql get-schema --project database

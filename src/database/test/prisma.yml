@@ -1,8 +1,0 @@
-endpoint: https://test-server-netflix420.herokuapp.com/test/dev
-datamodel: datamodel.graphql
-
-#Deploy Hook
-
-hooks:
-  post-deploy:
-    - graphql get-schema --project database

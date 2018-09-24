@@ -4,7 +4,7 @@ const { Prisma } = require('prisma-binding');
 const Query =  require('./resolvers/Query');
 const Mutation =  require('./resolvers/Mutation');
 const Subscription =  require('./resolvers/Subscription');
-const PRISMA_ENDPOINT = process.env.PRISMA_ENDPOINT || 'https://us1.prisma.sh/luis-felipe-quintero-cervera-905415/instadb/dev'
+
 
 
 
@@ -21,7 +21,7 @@ const server = new GraphQLServer({
         ...req,
         db: new Prisma({
             typeDefs: 'src/generated/prisma.graphql',
-            endpoint: PRISMA_ENDPOINT,
+            endpoint: 'https://us1.prisma.sh/luis-felipe-quintero-cervera-905415/instadb/dev',
             debug:true
         })
     }),

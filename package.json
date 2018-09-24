@@ -10,9 +10,6 @@
   },
   "author": "",
   "license": "ISC",
-  "engines": {
-    "node": "8.9.4"
-  },
   "dependencies": {
     "bcrypt": "^3.0.0",
     "dotenv": "^6.0.0",

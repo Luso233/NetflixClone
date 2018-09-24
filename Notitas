@@ -1,3 +1,33 @@
+	createMovie(
+    data:{
+      title:"Star wars Ep 8",
+      sinopsis:"Pelicula sobre guerra de las galaxias",
+      genre:SCIFY,
+      category:MOVIE,
+      suscription_type:FREE,
+      rate:B,
+      poster:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png",
+      video_url:"https://www.youtube.com/watch?v=Q0CbN8sfihY",
+      relased_date:"2017-12-15T00:00:00",
+      length:120
+    }
+  ){
+    id,
+    title
+  }
+
+}
+
+
+subscription{
+  newMovie{
+    node{
+      id,
+      title,
+      poster
+    }
+  }
+}
 
 type User {
   id: ID! @unique
